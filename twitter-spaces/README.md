@@ -15,7 +15,29 @@
            of adversarial buying and selling. Thus, there is a
            threshold that will prevent people from purchasing or
            selling Djed back to the issuer.
+	    4. Provided that the exchange rate remains constant, the
+           equity per reservecoin always increases. Thus, the token
+           will never be subject to draining.
+	    5. Limitations
+			1. If malicious user can predict exchange rate, the user
+               can drain the reserves.
+		    2. Every action changes the value, so many could be
+               purchased at one time at a discount.
+		    3. If the reserve ratio falls to one, the equity falls to
+               zero making the target price of the reserve also zero.
+		    4. Fees must be rigid.
+			5. When the peg is lost, the coin holders suffer losses.
+		    6. If the reserve ratio is close to the minimum, users may
+               race to sell reserve coins, and future users can be
+               barred from sale until the reserve ratio increases
+               again.
 	4. Extended Djed
+		1. A nominal price is defined with a constant.
+		2. The reserve ratio is dynamically adjusted.
+		3. Liabilities are normalized.
+		4. When it approaches what would have been the minimum reserve
+           ratio, some of the liabiliities are converted to equity.
+    5. Then they did model checking and dynamic analysis.
  2. Role in the ecosystem
 	1. Babel fees
  3. Concerns and discussion
@@ -54,6 +76,9 @@ Notes:
 > remains constant, the bank is never in a state susceptible to bank
 > runs where stablecoin holders would feel incentivized to race
 > against each other to sell their stablecoins.
+
+> The following theorem shows that, provided that the exchange rate
+> remains constant, the equity per reservecoin always increases.
 
 
  
