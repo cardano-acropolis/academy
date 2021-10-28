@@ -53,7 +53,7 @@ Notes:
 > and then sells, while keeping the price stable within the range from
 > 0.995 and 1.005.
 
-![actions](/Users/noahtjones/Dropbox (UFL)/academy/twitter-spaces/djed actions.png "Djed Actions")
+![actions](djed actions.png)
 
 > Minimal Djed enjoys several stability properties. The first one is
 > that, in the normal reserve ratio range where purchases and sales
