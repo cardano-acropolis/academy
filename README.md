@@ -17,11 +17,11 @@ three words of the following clause: "who owns what?"
 Naively, we start with signatures. The eUTxO ledger rules state that
 you may sign some value to a public key. That value is transferred if
 and only if the private key corresponding to that public key signs it
-to another public key. Vis a vis, it is whoever posesses the private
+to another public key. Vis a vis, it is whoever possesses the private
 key who owns all value signed to its corresponding public key. In the
-simplest case, the ``who'' is the posessor of the private key.
+simplest case, the ``who'' is the possessor of the private key.
 
-Likewise, the definition of "owns" is that rule: that the posessor of
+Likewise, the definition of "owns" is that rule: that the possessor of
 the private key may sign those funds to a new public key. Having the
 right to spend a value is the definition of owning that value. Thus,
 to "own" is to "be able to sign" and, by extension, "to be able to
@@ -34,7 +34,7 @@ blockchain. It has a signature attached and a value attached. When it
 is spent, the sum of the outputs must be equal to the sum of the
 inputs. Thus, the value of a UTxO may be divided and signed to
 multiple other parties, but the total value of all of the UTxOs in the
-system can never be altered by a transaction (escept in as much as it
+system can never be altered by a transaction (except in as much as it
 must be verified and minted into a block, but this is a completely
 separate mechanism.)
 
@@ -51,7 +51,7 @@ correct input to a script to induce that script to sign the
 transaction can be said to be the "who". This could be individuals,
 groups of individuals, autonomous machines, oracles, or space aliens
 with no concept of numbers. The "who" is extended to be any input that
-fulfils the arbitrary criteria provided by the "business logic" of a
+fulfills the arbitrary criteria provided by the "business logic" of a
 "smart contract", or, simply put, a "script".
 
 The definition of "owns" is likewise changed. Before, we needed only
@@ -63,7 +63,7 @@ is why the "smart contract" is described as a "contract": because each
 party may only own that which the smart contract contains if and only
 if they satisfy whatever other criteria the script and therefore the
 definition of "own" dictates. To "own" is thus conditional upon
-cooperation. The bedrock of coopoeration in a trustless environment is
+cooperation. The bedrock of cooperation in a trustless environment is
 so updated by our updated in the definition of ownership.
 
 The final piece is to extend the definition of "what" to be
@@ -73,7 +73,7 @@ no description before, we must include a description so as to
 reference something that exists and so differentiate it from all other
 things that exist. We do this by creating a minimal transfer of ledger
 value but attach to it a description of that thing which we actually
-wish to transfer. Futhermore, we can provide a number of that thing or
+wish to transfer. Furthermore, we can provide a number of that thing or
 "value". This latter point, in which we can take the description and
 hash it into the identity of a new object that also has a value is
 what is meant by "native asset". We can govern the nature of that
