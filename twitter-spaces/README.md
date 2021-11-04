@@ -109,3 +109,8 @@ Notes:
        pseudonymous publishing would work (apropos of Charles Hoskinson)
     3. We should speak with FlowJo at BD. 
 
+## 2021-10-28
+
+Funding mechanisms post-catalyst.
+
+ 1. 
